@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorFlipper</title>
+    <style>
+        #green_btn{
+            background-color: green;
+        }
+        #red_btn{
+            background-color: red;
+        }
+        #blue_btn{
+            background-color: blue;
+        }
+        button{
+            padding: 5px 7px; 
+            border-radius: 4px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h3>Color Flipper</h3>
+    <button id="green_btn" onclick="setColor('green')">Green</button>
+    <button id="red_btn" onclick="setColor('red')">Red</button>
+    <button id="blue_btn" onclick="setColor('blue')">Blue</button>
+    <button id="random_btn" onclick="randomColor()">Random</button>
+    <script src="scripts.js" ></script>
+</body>
+</html>
